@@ -53,3 +53,7 @@ function genRgx(sample){
         return new regex('',sRawRgx,'');
     }
 }
+//sample call
+//regexGen('aaa aaaa aa, aa').full;
+//print output 
+//console.log(regexGen('aaa aaaa aa, aa').full);
